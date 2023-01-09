@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>ZoomSlides</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="entete">
+                <!-- navigation menu -->
+                <nav class="navbar bg-light">
+                    <div class="container-fluid">
+                      <a id="nav-slide1" class="navbar-brand current-nav" href="#">
+                        Slide #1                      
+                      </a>
+                      <a id="nav-slide2" class="navbar-brand" href="#">
+                        Slide #2
+                      </a>
+                      <a id="nav-slide3" class="navbar-brand" href="#">
+                        Slide #3                     
+                      </a>
+                      <a id="nav-slide4" class="navbar-brand" href="#">
+                        Slide #4                     
+                      </a> 
+                      <a id="nav-slide5" class="navbar-brand" href="#">
+                        Slide #5
+                      </a>
+                    </div>
+                  </nav>         
+            </header>
+
+            <main class="conteneur-slides">
+                <!-- SLIDE #1 -->
+                <div id="slide1" class="first slide current-slide">
+                    <h1>SLIDE ONE</h1>
+                </div>
+
+                <!-- SLIDE #2 -->
+                <div id="slide2" class="slide unzoomed">
+                    <h1>SLIDE TWO</h1>    
+                </div>
+
+                <!-- SLIDE #3 -->
+                <div id="slide3" class="slide unzoomed">
+                   <h1>SLIDE THREE</h1>
+                </div>
+
+                <!-- SLIDE #4 -->
+                <div id="slide4" class="slide unzoomed">
+                    <h1>SLIDE FOUR</h1>
+                </div>  
+                
+                <!-- SLIDE #5 -->
+                <div id="slide5" class="last slide unzoomed">
+                    <h1>SLIDE FIVE</h1>
+                </div>   
+
+            </main>
+        </div>
+        <script src="js/slide.js"></script>
+    </body>
+</html>
