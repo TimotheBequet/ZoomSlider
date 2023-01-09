@@ -28,3 +28,7 @@ Ils peuvent être modifiés à volonté, ça n'impactera pas l'effet de transiti
 ##### JavaScript :
 L'effet de transition entre les slides ainsi que tous les écouteurs et gestion d'évènements sont gérés en JS.
 Lorsqu'une animation de transition est lancée, on bloque l'action de changement de slide le temps que l'animation se termine (1.5 secondes).
+
+
+## CodePen.io :
+Lien vers la page codepen.io (ne prend pas en compte Bootstrap) : [https://codepen.io/TimotheBequet/pen/eYjgxyR](https://codepen.io/TimotheBequet/pen/eYjgxyR)
