@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(82, 82, 82);    
+    background: #6A5ACD;
     height: inherit;
 }
 
@@ -20,21 +20,16 @@ body {
     overflow: hidden;
 }
 
-/* ------------ */
-/* entête du CV */
-/* ------------ */
+/* ------ */
+/* entête */
+/* ------ */
 .entete {
-    box-shadow: 0px 0px 40px rgb(161, 160, 160);
-}
-
-.entete::after {
-    background-color: rgb(39, 39, 39);
     color: #fff;
 }
 
 .navbar {
     padding: 0.75rem 1rem;
-    background-color: rgb(39, 39, 39) !important;
+    background-color: #483D8B !important;
 }
 
 .navbar-brand {
@@ -58,9 +53,9 @@ body {
     color: rgb(182, 182, 182);
 }
 
-/* ----------- */
-/* corps du CV */
-/* ----------- */
+/* ----- */
+/* corps */
+/* ----- */
 .conteneur-slides {
     height: inherit;
     display: flex;  
@@ -78,10 +73,10 @@ body {
     transition: all 1.5s;
     position: absolute;
     top: 2rem;
-    background-color: rgb(39, 39, 39);
-    box-shadow: 0px 0px 40px rgb(161, 160, 160);
+    background: #483D8B;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .current-slide {
